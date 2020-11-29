@@ -1,0 +1,28 @@
+body {
+    background-color: #fcf9ee;
+    margin: 0 5%;
+}
+
+.name {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.name h1{
+    font-size: 16vw;
+}
+@media (min-width: 768px) {
+    .name h1 {
+        font-size: 8vw;
+    }
+    .name {
+        margin-top: 10rem;
+        margin-bottom: 8rem;
+    }
+}
+
+@media (min-width: 1200px) { 
+    p{
+        font-size: 1.2rem;
+    }
+ }
