@@ -1,6 +1,7 @@
 body {
     background-color: #fcf9ee;
     margin: 0 5%;
+    font-family: 'Libre Franklin', sans-serif;
 }
 
 .name {
@@ -10,6 +11,7 @@ body {
 
 .name h1{
     font-size: 16vw;
+    font-weight: bold;
 }
 @media (min-width: 768px) {
     .name h1 {
@@ -26,3 +28,23 @@ body {
         font-size: 1.2rem;
     }
  }
+
+ /* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
+/* selected link */
+a:active {
+  color: black;
+}
